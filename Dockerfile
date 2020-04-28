@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 
 RUN apt update -y && \
     apt install -y fontconfig fontconfig-config fonts-dejavu-core libbsd0 libexpat1 \
